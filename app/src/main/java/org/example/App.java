@@ -3,7 +3,12 @@
  */
 package org.example;
 
+import org.example.domain.Restaurant;
+
+import java.util.Map;
+
 public class App {
+    Map<Number, Restaurant> restaurants;
     public String getGreeting() {
         return "Hello World!";
     }

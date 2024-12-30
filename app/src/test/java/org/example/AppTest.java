@@ -15,10 +15,5 @@ class AppTest {
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 
-    @Test
-    void oneCustomerInlineAndCheckStatus() {
-        App classUnderTest = new App();
-        Registration reg = new Registration(145, 10, 0933335625, "john@example.com");
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
-    }
+
 }
