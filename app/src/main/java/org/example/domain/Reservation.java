@@ -1,6 +1,6 @@
 package org.example.domain;
 
-public class Registration {
+public class Reservation {
     private int id;
     private int restaurantId;
     private String telephone;
@@ -8,7 +8,7 @@ public class Registration {
     private int numOfCustomers;
 
     // Constructor
-    public Registration(int id, int restaurantId, String telephone, String email, int numOfCustomers) {
+    public Reservation(int id, int restaurantId, String telephone, String email, int numOfCustomers) {
         this.id = id;
         this.restaurantId = restaurantId;
         this.telephone = telephone;

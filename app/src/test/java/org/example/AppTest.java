@@ -3,7 +3,6 @@
  */
 package org.example;
 
-import org.example.domain.Registration;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
